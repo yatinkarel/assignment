@@ -1,8 +1,8 @@
 ---
-net_hostname: 'cn1.musashi.ph'
+net_hostname: 'cn1.nti.in'
 net_defaultif: 'bond0.100'
 net_privateif: 'bond0.1001'
-net_interfaces: [ 'eth0', 'eth1', 'bond0', 'bond0.100', 'bond0.1001', 'bond0.1002' ]
+net_interfaces: [ 'eth0', 'eth1', 'bond0', 'bond1', 'bond0.100', 'bond0.1001', 'bond0.1002' ]
 net_config: 
         'eth0':           { hwaddr: '00:12:34:56:ab:11', bootproto: 'none', onboot: 'yes', master: 'bond0', slave: 'yes' }
         'eth1':           { hwaddr: '00:12:34:56:ab:12', bootproto: 'none', onboot: 'yes', master: 'bond0', slave: 'yes' }
